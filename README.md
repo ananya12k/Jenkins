@@ -59,3 +59,8 @@ Jenkins Configuration as Code (JCasC) is a Jenkins plugin that allows you to def
 ## Jenkins Installation in Windows
 
 To install Jenkins in Windows, you can download the Jenkins MSI installer from the Jenkins website and then run the installer. The installer will guide you through the installation process.
+Follow this website for more information:
+
+```bash
+https://www.jenkins.io/doc/book/installing/windows/
+```

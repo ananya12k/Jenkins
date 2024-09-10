@@ -10,7 +10,7 @@ Continuous Integration is a development practice that requires developers to int
 
 ## What is Continuous Delivery?
 
-Continuous Delivery is a software development practice where code changes are automatically built, tested, and prepared for a release to production. It expands upon continuous integration by deploying all code changes to a testing environment and/or a production environment after the build stage.
+Continuous Delivery is a software development practice where code changes are automatically built, tested, and prepared for a release to production. It expands upon continuous integration by deploying all code changes to a testing environment or a production environment after the build stage.
 
 ## What is Continuous Deployment?
 

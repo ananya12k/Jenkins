@@ -56,11 +56,90 @@ Jenkins CLI is a command-line interface tool that allows you to interact with Je
 
 Jenkins Configuration as Code (JCasC) is a Jenkins plugin that allows you to define and configure Jenkins as code. With JCasC, you can define the Jenkins configuration in a YAML or Groovy file and then use that file to configure Jenkins.
 
-## Jenkins Installation in Windows
+# Jenkins Installation on Windows
 
-To install Jenkins in Windows, you can download the Jenkins MSI installer from the Jenkins website and then run the installer. The installer will guide you through the installation process.
-Follow this website for more information:
+## Step 1: Download Java
 
-```bash
-https://www.jenkins.io/doc/book/installing/windows/
-```
+Make sure you have Java 11, 17, or 21 installed on your system.
+
+## Step 2: Download Jenkins
+
+1. Visit the [Jenkins official website](https://www.jenkins.io/).
+
+   ![Download Jenkins](Images_installation/1.png)
+
+2. Click on the **Download** button.
+
+   ![Click Download Button](Images_installation/2.png)
+
+3. You will see options for different platforms.
+
+   ![Platform Options](Images_installation/3.png)
+
+4. Click on **Windows** to start the download.
+
+   ![Windows Download](Images_installation/4.png)
+
+## Step 3: Install Jenkins
+
+1. After the download is complete, click on the Jenkins installer file to open it.
+
+   ![Installer File](Images_installation/5.png)
+
+2. Follow the prompts and click **Next** to proceed.
+
+   ![Click Next](Images_installation/6.png)
+
+3. You can change the folder path if needed, or leave it as default.
+
+   ![Change Folder Path](Images_installation/7.png)
+
+4. Select the first option and click **Next**.
+
+   ![Select First Option](Images_installation/8.png)
+
+5. Test the port and click **Next**.
+
+   ![Test Port](Images_installation/9.png)
+
+6. Select the JDK folder path and click **Next**.
+
+   ![Select JDK Path](Images_installation/10.png)
+
+7. Click **Next** again to continue.
+
+   ![Proceed with Installation](Images_installation/11.png)
+
+8. Click **Install** to start the installation.
+
+   ![Click Install](Images_installation/12.png)
+
+## Step 4: Complete Installation
+
+1. After the installation is complete, click **Finish** to exit the installer.
+
+   ![Finish Installation](Images_installation/13.png)
+
+2. Open a web browser and navigate to `localhost:8080` to access Jenkins.
+
+   ![Open in Browser](Images_installation/14.png)
+
+3. Go to the path `C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword`.
+
+4. Open the file in Notepad, copy the password, and paste it into the Jenkins login screen, then click **Continue**.
+
+   ![Enter Admin Password](Images_installation/16.png)
+
+## Step 5: Install Plugins
+
+1. Click **Install Plugins**. Jenkins will automatically install all necessary plugins.
+
+   ![Install Plugins](Images_installation/17.png)
+
+2. After the plugin installation is complete, you can either enter your details or skip and start using Jenkins.
+
+   ![Start Jenkins](Images_installation/18.png)
+
+   ![Jenkins Setup Complete](Images_installation/19.png)
+
+   ![Jenkins Dashboard](Images_installation/20.png)
